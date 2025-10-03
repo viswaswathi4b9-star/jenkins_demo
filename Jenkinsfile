@@ -9,8 +9,13 @@ pipeline{
             }
 
         }
+        stage('git scm'){
+            steps{
+                echo "new"
+            }
     }
 }
 
   
+
 
