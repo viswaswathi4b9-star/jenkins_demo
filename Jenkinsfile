@@ -13,9 +13,11 @@ pipeline{
             steps{
                 echo "new"
             }
+        }
     }
 }
 
   
+
 
 
