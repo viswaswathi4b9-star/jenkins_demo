@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('build'){
+        stage('qrbuild'){
             steps{
                 echo "build pipleline"
             }
@@ -22,3 +22,4 @@ pipeline{
     }
 
 }
+
