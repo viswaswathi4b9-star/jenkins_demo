@@ -1,23 +1,24 @@
-//syntax
-//sample pipeline\
 pipeline{
     agent any
     stages{
-        stage('firststage'){
+        stage('build'){
             steps{
-                echo "first pipleline"
+                echo "build pipleline"
             }
 
         }
-        stage('git scm'){
+        stage('test'){
             steps{
-                echo "new"
+                echo "test pipleline"
             }
+
+        }
+        stage('docker'){
+            steps{
+                echo "docker"
+            }
+
         }
     }
+
 }
-
-  
-
-
-
